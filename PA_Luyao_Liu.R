@@ -1,10 +1,10 @@
 ##==================================================
-##=======For: Sr.Product Analyst @Conde Nast========
+##=======For: Sr.Product Analyst ===================
 ##=======Author: Luyao Liu==========================
 ##==================================================
 
 rm(list=ls())
-setwd("~/Documents/Simon Strong/CMC/Job Searching/Assessment/Conde Nast") #Please change this path to your own dataset folder
+setwd("~/Documents/Simon Strong/CMC/Job Searching/Assessment") #Please change this path to your own dataset folder
 
 df <- read.csv('Data_Challenge_Data.csv')
 summary(df) #more details about the dataset
